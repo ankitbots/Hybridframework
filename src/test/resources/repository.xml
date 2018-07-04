@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pages>
+    <page name="Home">
+        <uiElements>
+            <uiobject name="Leverton_HomePage" type="xpath"><locator>//img[@alt='LEVERTON']</locator></uiobject>
+            <uiobject name="Username" type="id"><locator>username</locator></uiobject>
+            <uiobject name="Password" type="id"><locator>password-field</locator></uiobject>
+            <uiobject name="Log_In" type="xpath"><locator>//input[@value='Log In']</locator></uiobject>
+            <uiobject name="Ooops_Message" type="className"><locator>title</locator></uiobject>
+            <uiobject name="ErrorMessage" type="className"><locator>subtitle</locator></uiobject>
+        </uiElements>
+    </page>
+</pages>
